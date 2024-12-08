@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product CRUD</title>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.css" rel="stylesheet">
+    <style>
+        /* Basic styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .product-list {
+            margin-top: 20px;
+        }
+        .product-item {
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            display: flex;
+            justify-content: space-between;
+        }
+        .product-item button {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Product CRUD</h1>
+
+<button id="createProductBtn">Create Product</button>
+
+<div class="product-list" id="productList"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
+<script src="crud.js"></script>
+</body>
+</html>
